@@ -1,0 +1,42 @@
+body {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.collapse {
+    justify-content: right;
+}
+
+.nav-item {
+    padding-right: 20px;
+}
+
+form {
+    width: 50vw;
+    margin-left: 25vw;
+}
+
+.btn {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+.form-group {
+    padding: 30px;
+}
+
+.form-control {
+    margin-top: 10px;
+}
+
+#blogcontent {
+    height: 50vh;
+}
+
+@media (max-width: 479px){
+    form {
+        width: 80vw;
+        margin-left: 10vw;
+    }
+}
