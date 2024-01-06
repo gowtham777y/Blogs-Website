@@ -1,0 +1,15 @@
+<%- include("header.ejs") %>
+<div class="blogContent">
+    <h1><%= blogData.title %></h1>
+    <p>
+        <%= blogData.content %>
+    </p>
+    <div>
+        by <i>
+            <b>
+                <%= blogData.author %>
+            </b>
+        </i>
+    </div>
+</div>
+<%- include("footer.ejs") %>
